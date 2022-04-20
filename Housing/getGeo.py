@@ -9,7 +9,7 @@ for i,row in df.iterrows():
     #print(apiAddress)
 
     parameters={
-        "key": "WAIBV7EywqA8XRFTithydfrdrqeYYjAB",
+        "key": "YOUE KEY",
         "location" : apiAddress
     }
     response = requests.get("http://www.mapquestapi.com/geocoding/v1/address", params = parameters)
