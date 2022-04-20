@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import requests
 
-myurl='https://dsci551-bd054-default-rtdb.firebaseio.com/.json'
+myurl='YOUR URL'
 df=pd.read_csv('apt_results.csv')
 df.reset_index()
 a=df.to_json(orient='records')
